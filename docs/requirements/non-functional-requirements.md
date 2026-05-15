@@ -42,7 +42,7 @@ The interface must be intuitive and easy to use.
 
 ---
 
-## NFR-08 - Scalability
+## NFR-08 - Scalability .
 
 The system must support future expansion of modules and users.
 
