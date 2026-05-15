@@ -34,6 +34,7 @@ The system must allow searching professionals by:
 - name
 - nickname
 - role
+- CPF
 
 ---
 
@@ -89,16 +90,18 @@ Common users must be able to:
 - edit teams
 - export teams# Product Backlog
 
-| ID | Task | Priority |
-|----|------|-----------|
-| TASK-01 | Configure project structure | High |
-| TASK-02 | Configure React application | High |
-| TASK-03 | Configure Supabase | High |
-| TASK-04 | Create database model | High |
-| TASK-05 | Create employees entity | High |
-| TASK-06 | Create teams entity | Medium |
-| TASK-07 | Create productions entity | Medium |
-| TASK-08 | Create reports module | Medium |# Guerrilha Manager
+# Product Backlog
+
+| ID | Feature | Priority | Complexity |
+|----|---------|-----------|-------------|
+| FEAT-01 | Authentication System | Must Have | Medium |
+| FEAT-02 | Professionals Management | Must Have | High |
+| FEAT-03 | Teams Management | Must Have | High |
+| FEAT-04 | Export System | Should Have | Medium |
+| FEAT-05 | Reports Module | Could Have | Medium |
+| FEAT-06 | Role Management | Must Have | Medium |
+| FEAT-07 | Access Control System | Must Have | High |
+| FEAT-08 | Dashboard Interface | Could Have | Medium |Guerrilha Manager
 
 ## Objective
 
