@@ -1,0 +1,30 @@
+# Guerrilha Manager
+
+## Objective
+
+Guerrilha Manager is a workforce and production management system designed for audiovisual operations.
+
+The system aims to manage:
+- employees
+- teams
+- productions
+- operational reports
+- workforce allocation
+
+---
+
+## Technologies
+
+- React
+- PostgreSQL
+- Supabase
+- Git/GitHub
+
+---
+
+## Engineering Practices
+
+- Scrum
+- UML
+- Requirements Engineering
+- GitFlow
