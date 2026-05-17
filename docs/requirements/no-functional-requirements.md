@@ -156,11 +156,11 @@ Common users must be able to:
 | TASK-05 | Create employees entity | High |
 | TASK-06 | Create teams entity | Medium |
 | TASK-07 | Create productions entity | Medium |
-| TASK-08 | Create reports module | Medium |# Guerrilha Manager
+| TASK-08 | Create reports module | Medium |# Elefante cor de Rosa Manager
 
 ## Objective
 
-Guerrilha Manager is a workforce and production management system designed for audiovisual operations.
+Elefante cor de Rosa Manager is a workforce and production management system designed for audiovisual operations.
 
 The system aims to manage:
 - employees

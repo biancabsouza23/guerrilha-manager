@@ -101,11 +101,11 @@ Common users must be able to:
 | FEAT-05 | Reports Module | Could Have | Medium |
 | FEAT-06 | Role Management | Must Have | Medium |
 | FEAT-07 | Access Control System | Must Have | High |
-| FEAT-08 | Dashboard Interface | Could Have | Medium |Guerrilha Manager
+| FEAT-08 | Dashboard Interface | Could Have | Medium |Elefante cor de Rosa Manager
 
 ## Objective
 
-Guerrilha Manager is a workforce and production management system designed for audiovisual operations.
+Elefante cor de Rosa Manager is a workforce and production management system designed for audiovisual operations.
 
 The system aims to manage:
 - employees
