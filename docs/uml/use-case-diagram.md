@@ -3,35 +3,45 @@
 ```mermaid
 graph LR
 
-MasterUser[Master User]
-CommonUser[Common User]
+%% Actors
+CommonUser["👤 Common User"]
+MasterUser["👑 Master User"]
 
-Authenticate((Authenticate User))
-RegisterProfessional((Register Professional))
-EditProfessional((Edit Professional))
-DeleteProfessional((Delete Professional))
-SearchProfessional((Search Professionals))
-CreateTeam((Create Team))
-ManageTeam((Manage Team Members))
-OverrideRoles((Override Team Roles))
-ExportTeams((Export Teams))
-ManageUsers((Manage Users))
+%% Inheritance
+MasterUser -. inherits .-> CommonUser
 
-MasterUser --> Authenticate
-MasterUser --> RegisterProfessional
-MasterUser --> EditProfessional
-MasterUser --> DeleteProfessional
-MasterUser --> SearchProfessional
-MasterUser --> ManageUsers
-MasterUser --> CreateTeam
-MasterUser --> ManageTeam
-MasterUser --> OverrideRoles
-MasterUser --> ExportTeams
+%% System Boundary
+subgraph System["🐘 Elefante Cor de Rosa Manager"]
 
+Authenticate(("Authenticate User"))
+
+SearchProfessional(("Search Professionals"))
+
+RegisterProfessional(("Register Professional"))
+EditProfessional(("Edit Professional"))
+DeleteProfessional(("Delete Professional"))
+
+CreateTeam(("Create Team"))
+ManageTeam(("Manage Team Members"))
+CustomizeRoles(("Customize Team Roles"))
+
+ExportTeams(("Export Teams"))
+
+ManageUsers(("Manage Users"))
+
+end
+
+%% Common User Permissions
 CommonUser --> Authenticate
 CommonUser --> SearchProfessional
 CommonUser --> CreateTeam
 CommonUser --> ManageTeam
-CommonUser --> OverrideRoles
+CommonUser --> CustomizeRoles
 CommonUser --> ExportTeams
+
+%% Master User Exclusive Permissions
+MasterUser --> RegisterProfessional
+MasterUser --> EditProfessional
+MasterUser --> DeleteProfessional
+MasterUser --> ManageUsers
 ```
