@@ -23,6 +23,10 @@ MasterUser --> EditProfessional
 MasterUser --> DeleteProfessional
 MasterUser --> SearchProfessional
 MasterUser --> ManageUsers
+MasterUser --> CreateTeam
+MasterUser --> ManageTeam
+MasterUser --> OverrideRoles
+MasterUser --> ExportTeams
 
 CommonUser --> Authenticate
 CommonUser --> SearchProfessional
